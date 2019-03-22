@@ -2,7 +2,6 @@
 #include "binaryNode.h"
 
 void inorder(struct Node* node){
-	printf("reached in inorder");
 	if (node == NULL){
 		return;
 	} else {
